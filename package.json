@@ -1,0 +1,23 @@
+{
+  "name": "prisma-apollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "prisma deploy --env-file .env",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "dotenv": "^6.0.0",
+    "graphql": "^0.13.2",
+    "graphql-import": "^0.6.0",
+    "prisma-binding": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
